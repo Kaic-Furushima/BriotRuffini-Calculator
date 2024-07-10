@@ -1,4 +1,4 @@
-# Calculadora por Briot Ruffini
+# Calculadora Briot Ruffini
 
 ## 💻 Tecnologias utilizadas no projeto
 
@@ -6,5 +6,5 @@
 
 ## ✨ Motivação
 
-Desenvolver um código que automatização a aplicação do Dispositivo Prático de Briot-Ruffini, servindo para auxiliar em cálculos pessoais
+Desenvolver um código que automatizasse a aplicação do Dispositivo Prático de Briot-Ruffini, servindo para auxiliar em cálculos pessoais
 
