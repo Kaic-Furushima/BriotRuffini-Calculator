@@ -1,5 +1,5 @@
 def calculateBR(f_x, function_dividers):
-    roots = []
+    roots = {}
     for i in range(len(function_dividers)):
         calculated_values = []
         calculated_values.append(f_x[0])
@@ -9,7 +9,7 @@ def calculateBR(f_x, function_dividers):
             calculated_values.append(calculated_values[j - 1] * function_dividers[i] + f_x[j])
             print(f"{calculated_values[j]} | ", end="")
         if(calculated_values[len(calculated_values) - 1] == 0):
-            roots.append(calculated_values)
+            roots[f"{function_dividers[i]}"] = calculated_values
         print("")
     print(roots)
 
